@@ -1,9 +1,12 @@
 body {
     width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
+}
+
+img {
+    display: block;
 }
 
 .titulo-principal {
@@ -14,22 +17,22 @@ body {
 figure {
     background-color: #F2EDED;
     padding: 15px;
-    margin: 30px;
+    margin: 30px auto;
 }
 
 figcaption {
     margin-top: 10px;
+    text-align: center;
 }
 
 .matriz-musicdot {
     width: 550px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .familia-tupfeln {
     width: 275px;
     float: right;
+    margin: 0 0 20px 20px;
 }
 
 figure img {
