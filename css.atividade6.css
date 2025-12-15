@@ -20,6 +20,10 @@ figure {
     margin: 30px auto;
 }
 
+figure img {
+    width: 100%;
+}
+
 figcaption {
     margin-top: 10px;
     text-align: center;
@@ -33,10 +37,6 @@ figcaption {
     width: 275px;
     float: right;
     margin: 0 0 20px 20px;
-}
-
-figure img {
-    width: 100%;
 }
 
 h2 {
