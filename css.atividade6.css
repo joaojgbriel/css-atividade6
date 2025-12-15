@@ -1,12 +1,10 @@
 body {
-    width: 940px;
-    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    color: #333;
 }
 
-img {
-    display: block;
+.conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .titulo-principal {
@@ -15,9 +13,10 @@ img {
 }
 
 figure {
-    background-color: #F2EDED;
+    background-color: whitesmoke;
     padding: 15px;
     margin: 30px auto;
+    text-align: center;
 }
 
 figure img {
@@ -26,29 +25,19 @@ figure img {
 
 figcaption {
     margin-top: 10px;
-    text-align: center;
+    color: lightgrey;
 }
 
-.matriz-musicdot {
+.matriz {
     width: 550px;
 }
 
-.familia-tupfeln {
+.familia {
     width: 275px;
-    float: right;
-    margin: 0 0 20px 20px;
 }
 
-.secao-historia {
-    overflow: hidden;
-}
-
-h2 {
-    border-bottom: 2px solid #333;
-    margin-top: 30px;
-}
-
-.contato {
-    background-color: #E1EDF2;
-    padding: 10px;
+h2:not(.titulo-principal) {
+    border-bottom: 1px solid #3D3D3D;
+    padding-bottom: 5px;
+    margin-top: 40px;
 }
